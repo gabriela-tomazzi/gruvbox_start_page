@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100vh;
+	background-color: #2b2b2c;
+
+	background-image: url(assets/astronaut-filter.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: Sf mono;
+	color: #d5c4a1;
+}
+
+main {
+	width: 50vw;
+	height: 50vh;
+
+	box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 1.5rem;
+}
+
+#div_hora {
+	font-size: 3rem;
+	text-align: center;
+}
