@@ -63,11 +63,15 @@ main {
 	color: #d5c4a1;
 }
 input:focus{
-	border: 1px solid #2b2b2c;
+	outline: none;
+	border: 1px solid #d5c4a1;
+	box-sizing: border-box;
+	border-radius: 5px;
 }
 
 .favorites {
 	width: 90%;
+	height: 7rem;
 
 	display: flex;
 	align-items: center;
@@ -77,5 +81,10 @@ input:focus{
 	padding: 1rem;
 }
 .fav img {
-	width: 10%;
+	width: 5rem;
+	border-radius: 15px;
+}
+.fav img:hover {
+	width: 6rem;
+	transition: width 0.2s ease;
 }
