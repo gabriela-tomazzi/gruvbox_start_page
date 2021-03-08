@@ -4,7 +4,7 @@
 }
 body {
 	height: 100vh;
-	background-color: #2b2b2c;
+	background-color: #2c2c2b;
 
 	background-image: url(assets/astronaut-filter.png);
 	background-position: center left;
@@ -59,7 +59,7 @@ main {
 	padding: 0.7rem;
 	box-sizing: border-box;
 
-	background-color: #2b2b2c;
+	background-color: #2c2c2b;
 	color: #d5c4a1;
 }
 input:focus{
