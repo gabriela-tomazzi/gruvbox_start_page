@@ -4,11 +4,13 @@ function search(event) {
         
 		var input = document.getElementById('search_input');
 		let text = input.value;
-		url = 'https://duckduckgo.com/?q=' + text;
+		
+		if (text[0] == '!') {
+			url = 'https://www.google.com/?q=' + text;
+		} else {
+			url = 'https://duckduckgo.com/?q=' + text;
+		}
 
     }
 	window.open(url, '_self');
-
-	input.value = "";
-	console.log('rodou');
 }
